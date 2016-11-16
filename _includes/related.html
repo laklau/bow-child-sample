@@ -1,0 +1,29 @@
+<div class="related">
+
+  {% for post in site.posts %}
+
+    <ul class="post-list">{% if post.categories == page.categories %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+      </li>
+      <div class="excerpt">{{ post.excerpt | truncate:200 }}
+        <p class="more"><a href="{{ post.url | relative_url }}"> llegir + </a></p>
+      </div>
+      <hr>
+      {% endif %}
+    </ul>
+
+  {% endfor %}
+
+
+  <h4>Categories de l'entrada:</h4>
+  <ul>{% for category in page.categories %}
+      <li>{{ category }}
+      </li>
+
+  {% endfor %}</ul>
+</div>

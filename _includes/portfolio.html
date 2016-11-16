@@ -1,0 +1,19 @@
+      <div class="project">
+        <div class="col-md-8 col-md-push-5 animate-box" data-animate-effect="fadeInLeft">
+          <img class="img-responsive" src="{{ project.image }}" alt="work">
+        </div>
+        <div class="col-md-4 col-md-pull-8 animate-box" data-animate-effect="fadeInRight">
+          <div class="mt">
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h3>
+            <p>{{ project.description | escape }}</p>
+            <ul class="list-nav">
+              {% if post.category %}
+              <li><i class="icon-check"></i>{{ project.category | escape }}</li>
+              {% endif %}
+              {% if post.tag %}
+              <li><i class="icon-check"></i>{{ project.tag | escape }}</li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </div>

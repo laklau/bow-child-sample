@@ -1,0 +1,41 @@
+    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(assets/images/img_bg_1.jpg);">
+  		<div class="overlay"></div>
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-10 col-md-offset-1 text-center">
+  					<div class="display-t">
+  						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+  							<h1>{{ site.title | escape }}</h1>
+  							{% if site.claim %}<h2>{{ site.claim | escape }}</h2>{% endif %}
+                <!-- Hero button -->
+                <p><a href="#" class="btn btn-default">View Our Work</a></p>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</header>
+
+<!-- Navigation -->
+    <nav class="fh5co-nav" role="navigation">
+      <div class="container">
+        <div class="row">
+          <!-- logo -->
+          <div class="col-xs-2">
+            <div id="fh5co-logo"><a href="{{ "/" | relative_url}}">{{ site.title | escape }}</a></div>
+          </div>
+          <!-- Menu -->
+          <div class="col-xs-10 text-right menu-1">
+            <ul>
+              {% for my_page in site.pages %}
+                {% if my_page.title %}
+                <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </nav>
