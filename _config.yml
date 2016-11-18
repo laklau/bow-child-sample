@@ -15,15 +15,30 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Jane_doe
 github_username:  Jane_doe
 
-# Build settings
-markdown: kramdown
-# theme: bow-child
-gems:
-  - jekyll-feed
-  - jekyll-paginate
+# Where things are
+collections:
+  projects:
+    output: true
+
+# Handling Reading
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Plugins
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+
+# theme: bow-child
+
+# Conversion
+markdown: kramdown
+
+# Outputting
+timezone: Europe/Madrid
+
+
 
 # Front Matter defaults
 defaults:
@@ -40,14 +55,6 @@ defaults:
       type: "projects"
     values:
       layout: "project" # overrides previous default layout
-
-
-
-
-# Colllections
-collections:
-  projects:
-    output: true
 
 # Pagination
 paginate: 3

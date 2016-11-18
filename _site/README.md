@@ -1,8 +1,6 @@
 # bow-child
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
-
-TODO: Delete this and the text above, and describe your gem
+Bow-Child is a Jekyll Theme based on Bow Responsive Free HTML5 Bootstrap Template by FREEHTML5.co
 
 ## Installation
 
@@ -46,3 +44,38 @@ When your theme is released, only the files in `_layouts`, `_includes`, and `_sa
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+
+CREDITS:
+
+Designed by FREEHTML5.co
+http://freehtml5.co/
+
+Bootstrap
+http://getbootstrap.com/
+
+jQuery
+http://jquery.com/
+
+jQuery Easing
+http://gsgd.co.uk/sandbox/jquery/easing/
+
+Modernizr
+http://modernizr.com/
+
+Google Fonts
+https://www.google.com/fonts/
+
+Icomoon
+https://icomoon.io/app/
+
+Respond JS
+https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+
+animate.css
+http://daneden.me/animate
+
+Owl Carousel
+http://www.owlcarousel.owlgraphic.com/
+
+Demo Images:
+http://unsplash.com/
