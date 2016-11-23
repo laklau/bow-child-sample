@@ -2,11 +2,13 @@
 layout: default
 ---
 
-{% include header.html %}
-
 <!-- Page Content -->
 <div id="fh5co-services-section">
 		<div class="container">
+			<!-- Service Content -->
+
+					{{ content }}
+
 			<!-- This loops through the services -->
 					<div class="row">
 					{% for service in site.services limit:3 %}

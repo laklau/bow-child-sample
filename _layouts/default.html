@@ -4,18 +4,29 @@
   {% include head.html %}
 
   <body>
+    <div id="page">
 
-    {% include header.html %}
+    {% include nav.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+		<div class="wrapper">
+<!-- Main Content -->
         {{ content }}
-      </div>
-    </main>
+<!-- End main Content -->
+    </div>
+
+
+    {% include newsletter.html %}
 
     {% include footer.html %}
 
-    {% include subfooter.html %}
+  </div>
+
+    <!-- Go top button -->
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+    {% include jquery.html %}
 
   </body>
 

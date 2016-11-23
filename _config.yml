@@ -19,6 +19,8 @@ github_username:  Jane_doe
 collections:
   projects:
     output: true
+  services:
+    output: true
 
 # Handling Reading
 exclude:
@@ -55,6 +57,13 @@ defaults:
       type: "projects"
     values:
       layout: "project" # overrides previous default layout
+
+  -
+    scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service" # overrides previous default layout
 
 # Pagination
 paginate: 3
