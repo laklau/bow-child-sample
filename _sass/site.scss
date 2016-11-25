@@ -1,1 +1,19 @@
 
+// Services
+.service {
+	background: #efefef;
+  padding: 20px;
+  margin-top: -60px;
+
+}
+
+.service-main {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+
+	h3 {
+		color: $brand-primary;
+    margin-top: 20px;
+  }
+}

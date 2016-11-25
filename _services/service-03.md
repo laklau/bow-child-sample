@@ -1,8 +1,11 @@
 ---
 title: "Service 3"
+name: "Service 3"
 icon:  power
 image: /assets/images/work_1.png
-description: "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odit ab aliquam dolor eius."
+image-alt: "service 3"
+claim: "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odit ab aliquam dolor eius."
+abstract: "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 category: design
 tag: "Responsive"
 ---
