@@ -7,7 +7,7 @@ layout: default
 
 		<div id="fh5co-services-section">
 			<div class="container">
-				<div class="about-content">
+
 
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -30,21 +30,22 @@ layout: default
 							</div>
 						</div>
 					</div>
-					<div class="row animate-box col-md-10 col-md-offset-1 service-main">
-
+					<div class="row animate-box col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1 service-main">
+						<div id="item-detail">
 							{{ content }}
-
+						</div>
 					</div>
-			</div>
+
 
 				<!-- Submenu services -->
-						<div class="row center">
+			<div class="row col-xs-12">
+					<h3 class="related-title">Other services</h3>
 						{% for service in site.services %}
-							{% if service.name != page.name %}
+							{% if service.menu-name != page.menu-name %}
 								<div class="col-md-1 col-md-offset-1 col-sm-3 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 									<h5><a href="{{ service.url }}" class="btn btn-primary">
 										<span class="icon"><i class="icon-{{ service.icon }}"></i>
-										</span>{{ service.name }}</a>
+										</span>{{ service.menu-name }}</a>
 									</h5>
 								</div>
 							{% endif %}

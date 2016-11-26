@@ -161,14 +161,14 @@ layout: default
 	  <div class="container">
 	    <div class="row animate-box">
 	      <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-	        <h2>Finished Projects</h2>
+	        <h2>Latest Projects</h2>
 	        <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 	      </div>
 	    </div>
 	    <div class="row">
 
 <!-- This loops through the projects -->
-	      {% for project in site.projects limit:4 %}
+	      {% for project in site.projects limit:3 %}
 	      	<div>{% include work-item.html %}</div>
 	      {% endfor %}
 

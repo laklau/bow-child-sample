@@ -1,7 +1,8 @@
 ---
-title:  "Omnia sunt communia"
+title:  "Bow-Child | Works | Omnia sunt communia"
+menu-name: "Omnia sunt communia"
 date:   2016-11-14 17:51:00 +0100
-image: /assets/images/project-3.jpg
+image: project-2.jpg
 description: "Omnia sunt communia es una expresión del latín que significa «todo es común» o «todo es de todos»."
 category: design
 tag: "Omnia"

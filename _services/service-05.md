@@ -1,6 +1,6 @@
 ---
-title: "Service 5"
-name: "Service 5"
+title: "Bow-Child | Services | Service 5"
+menu-name: "Service 5"
 icon:  video2
 image: /assets/images/work_1.png
 image-alt: "service 5"

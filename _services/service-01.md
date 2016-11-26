@@ -1,6 +1,6 @@
 ---
 title: "Service 1"
-name:  "Service 1"
+menu-name:  "Service 1"
 icon:   eye
 image: /assets/images/work_1.png
 image-alt: "service 1"

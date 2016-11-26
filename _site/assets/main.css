@@ -219,7 +219,7 @@ th {
     page-break-inside: avoid; }
 
   img {
-    max-width: 100% !important; }
+    max-width: 100%; }
 
   p,
   h2,
@@ -6311,3 +6311,19 @@ form label {
   .service-main h3 {
     color: #337ab7;
     margin-top: 20px; }
+
+#item-detail img {
+  max-width: 100%;
+  padding: 1em; }
+
+.related {
+  padding: 5em; }
+  @media screen and (max-width: 768px) {
+    .related {
+      padding: 3em 0; } }
+
+.related-title {
+  text-transform: uppercase;
+  color: #444;
+  text-align: center;
+  margin-bottom: 2em; }

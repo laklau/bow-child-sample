@@ -1,7 +1,8 @@
 ---
-title:  "Lorem ipsum dolor sit amet"
+title:  "Bow-Child | Works | Lorem ipsum dolor sit amet"
+menu-name: "Lorem ipsum dolor sit amet"
 date:   2016-11-13 16:56:06 +0100
-image: /assets/images/project-2.jpg
+image: project-2.jpg
 description: "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 category: design
 tag: "Lorem ipsum"

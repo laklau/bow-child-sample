@@ -1,7 +1,8 @@
 ---
-title:  "Ut enim ad minim veniam, quis nostrud exercitation"
+title:  "Bow-Child | Works | Ut enim ad minim veniam"
+menu-name: "Ut enim ad minim veniam"
 date:   2016-11-16 18:04:02 +0100
-image: /assets/images/project-2.jpg
+image: project-2.jpg
 description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 category: design
 tag: responsive
@@ -10,7 +11,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-![Títol de la imatge]({{ site.url }}/assets/images/livewith.jpg)
+![Títol de la imatge]({{ site.url }}/assets/images/work_1.png)
 
 > Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 

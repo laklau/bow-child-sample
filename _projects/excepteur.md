@@ -1,7 +1,8 @@
 ---
-title:  "Excepteur"
+title:  "Bow-Child | Works | Excepteur"
+menu-name: Excepteur
 date:   2016-11-15 18:01:02 +0100
-image: /assets/images/work_1.png
+image: project-2.jpg
 description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 category: development
 tag: "Lorem ipsum"
