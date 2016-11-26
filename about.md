@@ -1,4 +1,5 @@
 ---
 layout: about
-title: About
+title: "Bow-Child | About"
+menu-name: "About"
 ---

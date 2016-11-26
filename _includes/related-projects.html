@@ -1,18 +1,19 @@
 <div class="related">
 
   <ul>
-  {% for item in site.projectes %}
+  {% for project in site.projectes %}
     <li>
-      <a href="{{ item.url }}">{{ item.title }}</a>
+      <a href="{{ item.url }}">{{ project.name }}</a>
     </li>
   {% endfor %}
 </ul>
 
 </div>
 <hr>
-<h4>Categories del projecte:</h4>
+<h4>Project categories:</h4>
 <ul>
-  <li>
-    {{ page.categories | array_to_sentence_string }}
-  </li>
+  {% for category in page.categories %}
+      <li>{{ category }}
+      </li>
+  {% endfor %}
 </ul>

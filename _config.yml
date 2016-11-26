@@ -16,6 +16,13 @@ twitter_username: Jane_doe
 github_username:  Jane_doe
 
 # Where things are
+source: .
+destination: ./_site
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+
 collections:
   projects:
     output: true
@@ -23,6 +30,8 @@ collections:
     output: true
 
 # Handling Reading
+encoding: "utf-8"
+markdown_ext: "md"
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -39,6 +48,11 @@ markdown: kramdown
 
 # Outputting
 timezone: Europe/Madrid
+permalink: pretty  
+
+# Pagination
+paginate: 3
+paginate_path: /blog/page:num/
 
 
 
@@ -64,7 +78,3 @@ defaults:
       type: "services"
     values:
       layout: "service" # overrides previous default layout
-
-# Pagination
-paginate: 3
-paginate_path: /blog/page:num/

@@ -4,8 +4,8 @@
   <div class="container">
     <div class="row row-pb-md">
       <div class="col-md-4 fh5co-widget">
-        <h3>{{ site.title | escape }}</h3>
-        <p>{{ site.claim | escape }}</p>
+        <h3>{{ site.title }}</h3>
+        <p>{{ site.claim }}</p>
         <p><a href="#">Learn More</a></p>
         {% if site.email %}</p>
         <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
@@ -28,7 +28,7 @@
 
       <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 text-right">
         <ul class="fh5co-footer-links">
-          <li>{{ site.description | escape }}</li>
+          <li>{{ site.description }}</li>
 
         </ul>
       </div>

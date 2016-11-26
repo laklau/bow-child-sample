@@ -7,14 +7,14 @@
         <div class="row">
           <!-- logo -->
           <div class="col-xs-2">
-            <div id="fh5co-logo"><a href="{{ "/" | relative_url}}">{{ site.title | escape }}</a></div>
+            <div id="fh5co-logo"><a href="{{ "/" | relative_url}}">{{ site.title }}</a></div>
           </div>
           <!-- Menu -->
           <div class="col-xs-10 text-right menu-1">
             <ul>
-              {% for my_page in site.pages %}
-                {% if my_page.title %}
-                <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+              {% for my_page in site.pages limit:7 %}
+                {% if my_page.menu-name %}
+                <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu-name }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>
