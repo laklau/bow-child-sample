@@ -1,7 +1,7 @@
 ---
 title:  "Bow-Child | Blog | Omnia sunt communia"
 menu-name: "Omnia sunt communia"
-date:   2016-11-14 17:51:00 +0100
+date:   2016-10-14 17:51:00 +0100
 category: blog
 image: "person3.jpg"
 image-alt: "image description"

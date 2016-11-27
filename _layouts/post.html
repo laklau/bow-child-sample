@@ -1,26 +1,50 @@
 ---
 layout: default
 ---
-<!-- Page Content -->
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ site.time | date_to_string }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
+<!-- Post Header -->
+<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(/assets/images/img_bg_small.jpg);">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <div class="display-t">
+          <div class="display-tc animate-box" data-animate-effect="fadeIn">
+            <h1>{{ page.menu-name }}</h1>
+            <h2>
+              {{ page.author }} | <time datetime="{{ site.time | date_to_string }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> | {{ page.category }}
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</header>
+<!-- Page Content -->
+<div id="fh5co-section">
+  <div class="container">
+    {% if page.image %}
+      <div class="row col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 post-image">
+        <img class="center-block"src="/assets/images/{{ page.image }}" alt="{{ page.image }}">
+      </div>
+    {% endif %}
 
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
-</article>
-
-<hr>
-<p>
-  Previus: <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>  |  Next: <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
-</p>
-<h3>Related posts:</h3>
-  {% include related.html %}
+    <div class="row animate-box col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 service-main">
+        <div id="item-detail">
+          <article class="post">
+          {{ content }}
+          </article>
+      </div>
+    </div>
+    <!-- Related posts -->
+    <div class="row col-md-12 col-md-offset-0 col-xs-10 col-xs-offset-1 related">
+      <h3 class="related-title">Related posts</h3>
+        {% for post in site.posts %}
+          {% if post.category == page.category %}
+            {% if post.menu-name != page.menu-name %}
+              {% include related.html %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+    </div>
+  </div>
+</div>

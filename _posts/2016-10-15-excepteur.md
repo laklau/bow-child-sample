@@ -1,11 +1,11 @@
 ---
-title:  "Bow-Child | Works | Excepteur"
+title:  "Bow-Child | Blog | Excepteur"
 menu-name: Excepteur
-date:   2016-11-15 18:01:02 +0100
-image: project-2.jpg
-description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-category: development
-tag: "Consectetur"
+date:   2016-10-15 18:01:02 +0100
+category: reserche
+author: person
+image: project-12.jpg
+image-alt: "image description"
 ---
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 

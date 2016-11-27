@@ -1,7 +1,7 @@
 ---
 title:  "Bow-Child | Blog | Welcome to Jekyll!"
 menu-name: "Welcome to Jekyll!"
-date:   2016-11-12 17:36:49 +0100
+date:   2016-10-12 17:36:49 +0100
 category: reserche
 author: "Ada Lovelace"
 image: person1.jpg

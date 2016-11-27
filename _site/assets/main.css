@@ -6327,3 +6327,89 @@ form label {
   color: #444;
   text-align: center;
   margin-bottom: 2em; }
+
+.related-image img {
+  width: 100%; }
+  @media screen and (max-width: 768px) {
+    .related-image img {
+      margin: 3em 0em; } }
+
+.post-image img {
+  width: 100%;
+  border: 1px solid #8a4419;
+  border-style: inset; }
+
+.post-image {
+  margin-top: 3em;
+  position: relative;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  background: white; }
+
+.post-image::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  /* hide shadow behind image */
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  left: 15%;
+  /* one half of the remaining 30% */
+  height: 100px;
+  bottom: 0; }
+
+.blog-grid {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  float: left;
+  display: table;
+  margin-bottom: 40px; }
+  .blog-grid .desc {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    width: 100%;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s; }
+    @media screen and (max-width: 768px) {
+      .blog-grid .desc {
+        opacity: 1; } }
+    .blog-grid .desc h3 {
+      margin-bottom: 10px; }
+      .blog-grid .desc h3 a {
+        color: #fff; }
+        .blog-grid .desc h3 a:hover, .blog-grid .desc h3 a:focus {
+          text-decoration: none; }
+    .blog-grid .desc .excerpt {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 20px;
+      display: block; }
+    .blog-grid .desc .cat {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.6);
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      display: block; }
+    .blog-grid .desc p {
+      padding: 0; }
+      .blog-grid .desc p a {
+        padding: 10px;
+        color: #fff; }
+        .blog-grid .desc p a:hover, .blog-grid .desc p a:focus {
+          text-decoration: none; }
+  .blog-grid:hover .desc {
+    opacity: 1; }

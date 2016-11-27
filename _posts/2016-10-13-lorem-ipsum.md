@@ -1,7 +1,7 @@
 ---
 title:  "Bow-Child | Blog | Lorem ipsum dolor sit amet"
 menu-name: "Lorem ipsum"
-date:   2016-11-13 16:56:06 +0100
+date:   2016-10-13 16:56:06 +0100
 category: reserche
 author: "Jane Doe"
 image: project-2.jpg

@@ -48,10 +48,10 @@ markdown: kramdown
 
 # Outputting
 timezone: Europe/Madrid
-permalink: pretty  
+permalink: pretty
 
 # Pagination
-paginate: 3
+paginate: 6
 paginate_path: /blog/page:num/
 
 
@@ -64,6 +64,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: "Author Name"
 
   -
     scope:
