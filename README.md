@@ -2,10 +2,11 @@
 
 Bow-Child is a Jekyll site based on Bow Responsive Free HTML5 Bootstrap Template by FREEHTML5.co
 
+Demo site here: http://bow-child-sample.netlify.com/ 
 
 CREDITS:
 
-Jekyllized & extended by LaKlau 
+Jekyllized & extended by LaKlau
 http://github.com/laklau
 
 Designed by FREEHTML5.co
