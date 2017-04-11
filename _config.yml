@@ -17,7 +17,7 @@ github_username:  Jane_doe
 
 # Where things are
 source: .
-destination: ./_site
+destination: _site
 plugins_dir: _plugins
 layouts_dir: _layouts
 data_dir: _data
