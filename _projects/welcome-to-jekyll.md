@@ -1,6 +1,6 @@
 ---
 title: Bow-Child | Works | Welcome to Jekyll!
-date: 2016-11-12 17:36:49 +01:00
+date: 2016-11-12 17:36:00 +01:00
 categories:
 - development
 tags:
@@ -11,7 +11,9 @@ description: To add new posts, simply add a file in the `_posts` directory. Jeky
   also offers powerful support for code snippets.
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and **auto-regenerates your site** when a file is updated.
+
+![FiraVilaMon.jpg](/uploads/FiraVilaMon.jpg)
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
