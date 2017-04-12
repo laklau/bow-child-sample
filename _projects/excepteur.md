@@ -1,12 +1,14 @@
 ---
 title: Bow-Child | Works | Excepteur
 date: 2016-11-15 18:01:02 +01:00
+categories:
+- development
+tags:
+- Consectetur
 menu-name: Excepteur
 image: project-2.jpg
 description: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
   deserunt mollit anim id est laborum.
-category: development
-tag: Consectetur
 ---
 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

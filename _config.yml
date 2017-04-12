@@ -38,7 +38,7 @@ baseurl: ''
 url: ''
 twitter_username: Jane_doe
 github_username: Jane_doe
-source: .
+source: "."
 destination: _site
 plugins_dir: _plugins
 layouts_dir: _layouts

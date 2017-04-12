@@ -1,5 +1,9 @@
 ---
 title: Bow-Child | Services | Service 4
+categories:
+- development
+tags:
+- Responsive
 menu-name: Service 4
 icon: help
 image: "/assets/images/work_1.png"
@@ -11,8 +15,6 @@ abstract: Labore et dolore magna aliqua. Consectetur adipisicing elit, sed do ei
   non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
   ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
   ut labore et dolore magna aliqua.
-category: development
-tag: Responsive
 highlighted: true
 ---
 

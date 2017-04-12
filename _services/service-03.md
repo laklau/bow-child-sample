@@ -1,5 +1,9 @@
 ---
 title: Bow-Child | Services | Service 3
+categories:
+- design
+tags:
+- Responsive
 menu-name: Service 3
 icon: power
 image: "/assets/images/work_1.png"
@@ -11,8 +15,6 @@ abstract: Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labo
   culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
   consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
   magna aliqua.
-category: design
-tag: Responsive
 highlighted: false
 ---
 

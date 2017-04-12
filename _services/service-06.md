@@ -1,5 +1,9 @@
 ---
 title: Bow-Child | Services | Service 6
+categories:
+- design
+tags:
+- Responsive
 menu-name: Service 6
 icon: brush
 image: "/assets/images/work_1.png"
@@ -13,8 +17,6 @@ abstract: " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiu
   id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua, sunt in culpa qui officia
   deserunt mollit anim id est laborum."
-category: design
-tag: Responsive
 highlighted: false
 ---
 
