@@ -4,10 +4,10 @@ categories:
 - development
 tags:
 - Responsive
-menu-name: Service 5
+menu_name: Service 5
 icon: video2
 image: "/assets/images/work_1.png"
-image-alt: service 5
+image_alt: service 5
 claim: Excepteur sint occaecat cupidatat non proident, lorem ipsum dolor sit amet,
   consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
   magna aliqua.

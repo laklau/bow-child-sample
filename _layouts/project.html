@@ -10,7 +10,7 @@ layout: default
       <div class="col-md-8 col-md-offset-2 text-center">
         <div class="display-t">
           <div class="display-tc animate-box" data-animate-effect="fadeIn">
-            <h1>{{ page.menu-name }}</h1>
+            <h1>{{ page.menu_name }}</h1>
             <h2>
               {{ page.category }} | {{ page.tag }}
             </h2>
@@ -34,7 +34,7 @@ layout: default
       <h3 class="related-title">Related projects</h3>
         {% for project in site.projects %}
           {% if project.category == page.category %}
-            {% if project.menu-name != page.menu-name %}
+            {% if project.menu_name != page.menu_name %}
               {% include work-item.html %}
             {% endif %}
           {% endif %}

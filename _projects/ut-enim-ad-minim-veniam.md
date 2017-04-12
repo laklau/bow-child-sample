@@ -5,7 +5,7 @@ categories:
 - design
 tags:
 - responsive
-menu-name: Ut enim ad minim veniam
+menu_name: Ut enim ad minim veniam
 image: project-2.jpg
 description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
   dolore eu fugiat nulla pariatur.

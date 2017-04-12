@@ -5,7 +5,7 @@ categories:
 - design
 tags:
 - Lorem ipsum
-menu-name: Lorem ipsum dolor sit amet
+menu_name: Lorem ipsum dolor sit amet
 image: project-2.jpg
 description: Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
   et dolore magna aliqua.

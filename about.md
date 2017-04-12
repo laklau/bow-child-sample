@@ -1,6 +1,6 @@
 ---
 title: Bow-Child | About
-menu-name: About
+menu_name: About
 layout: about
 ---
 

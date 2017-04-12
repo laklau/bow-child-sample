@@ -23,7 +23,7 @@ layout: default
 				<!-- Service Content -->
 					<div class="row animate-box">
 						<div class="col-md-6">
-							<img class="img-responsive" src="{{ page.image }}" alt="{{ page.image-alt }}">
+							<img class="img-responsive" src="{{ page.image }}" alt="{{ page.image_alt }}">
 						</div>
 						<div class="col-md-6 col-md-pull-1">
 							<div class="service">
@@ -42,11 +42,11 @@ layout: default
 			<div class="row col-xs-12">
 					<h3 class="related-title">Other services</h3>
 						{% for service in site.services %}
-							{% if service.menu-name != page.menu-name %}
+							{% if service.menu_name != page.menu_name %}
 								<div class="col-md-1 col-md-offset-1 col-sm-3 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 									<h5><a href="{{ service.url }}" class="btn btn-primary">
 										<span class="icon"><i class="icon-{{ service.icon }}"></i>
-										</span>{{ service.menu-name }}</a>
+										</span>{{ service.menu_name }}</a>
 									</h5>
 								</div>
 							{% endif %}

@@ -4,10 +4,10 @@ categories:
 - design
 tags:
 - Responsive
-menu-name: Service 3
+menu_name: Service 3
 icon: power
 image: "/assets/images/work_1.png"
-image-alt: service 3
+image_alt: service 3
 claim: Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
   dolore magna aliqua. Odit ab aliquam dolor eius.
 abstract: Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore

@@ -4,10 +4,10 @@ categories:
 - development
 tags:
 - Responsive
-menu-name: Service 2
+menu_name: Service 2
 icon: command
 image: "/assets/images/work_1.png"
-image-alt: service 2
+image_alt: service 2
 claim: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua.
 abstract: " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

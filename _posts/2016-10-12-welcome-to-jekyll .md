@@ -4,10 +4,10 @@ date: 2016-10-12 18:36:49 +02:00
 categories:
 - src
 - reserche
-menu-name: Welcome to Jekyll!
+menu_name: Welcome to Jekyll!
 author: Ada Lovelace
 image: person1.jpg
-image-alt: image description
+image_alt: image description
 ---
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

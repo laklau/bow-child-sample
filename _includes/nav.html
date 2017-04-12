@@ -13,8 +13,8 @@
           <div class="col-xs-10 text-right menu-1">
             <ul>
               {% for my_page in site.pages limit:7 %}
-                {% if my_page.menu-name %}
-                <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu-name }}</a></li>
+                {% if my_page.menu_name %}
+                <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_name }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>

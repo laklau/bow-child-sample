@@ -10,7 +10,7 @@ layout: default
       <div class="col-md-8 col-md-offset-2 text-center">
         <div class="display-t">
           <div class="display-tc animate-box" data-animate-effect="fadeIn">
-            <h1>{{ page.menu-name }}</h1>
+            <h1>{{ page.menu_name }}</h1>
             <h2>
               {{ page.author }} | <time datetime="{{ site.time | date_to_string }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> | {{ page.category }}
             </h2>
@@ -41,7 +41,7 @@ layout: default
       <h3 class="related-title">Related posts</h3>
         {% for post in site.posts %}
           {% if post.category == page.category %}
-            {% if post.menu-name != page.menu-name %}
+            {% if post.menu_name != page.menu_name %}
               {% include related.html %}
             {% endif %}
           {% endif %}

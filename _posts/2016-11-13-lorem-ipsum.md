@@ -4,10 +4,10 @@ date: 2016-11-13 16:56:06 +01:00
 categories:
 - src
 - reserche
-menu-name: Lorem ipsum
+menu_name: Lorem ipsum
 author: Jane Doe
 image: project-2.jpg
-image-alt: image description
+image_alt: image description
 ---
 
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu **fugiat nulla** pariatur.

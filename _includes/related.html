@@ -1,11 +1,11 @@
 <!-- Related post item -->
 <div class="row post">
   <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 animate-box related-image" data-animate-effect="fadeInLeft">
-    <img class="" src="/assets/images/{{ post.image }}" alt="{{ post.image-alt }}">
+    <img class="" src="/assets/images/{{ post.image }}" alt="{{ post.image_alt }}">
   </div>
   <div class="col-md-9 col-md-offset-0 col-sm-10 col-sm-offset-1 animate-box" data-animate-effect="fadeInRight">
     <div class="mt">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.menu-name }}</a></h3>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.menu_name }}</a></h3>
       <h5>{{ post.author }} | {{ post.date | date: "%b %-d, %Y" }}<h5>
       <span>{{ post.excerpt | truncate:300 }}
       <p class="text-right"><a href="{{ post.url | relative_url }}"> Read more </a></p></span>

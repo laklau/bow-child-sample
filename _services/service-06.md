@@ -4,10 +4,10 @@ categories:
 - design
 tags:
 - Responsive
-menu-name: Service 6
+menu_name: Service 6
 icon: brush
 image: "/assets/images/work_1.png"
-image-alt: service 6
+image_alt: service 6
 claim: 'Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
   dolore magna aliqua. '
 abstract: " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

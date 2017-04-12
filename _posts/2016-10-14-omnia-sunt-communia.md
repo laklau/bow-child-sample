@@ -4,9 +4,9 @@ date: 2016-10-14 18:51:00 +02:00
 categories:
 - src
 - blog
-menu-name: Omnia sunt communia
+menu_name: Omnia sunt communia
 image: person3.jpg
-image-alt: image description
+image_alt: image description
 ---
 
 Omnia sunt communia es una expresión del latín que significa «todo es común» o «todo es de todos». Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

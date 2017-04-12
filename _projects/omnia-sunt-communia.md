@@ -5,7 +5,7 @@ categories:
 - design
 tags:
 - Omnia
-menu-name: Omnia sunt communia
+menu_name: Omnia sunt communia
 image: project-2.jpg
 description: Omnia sunt communia es una expresión del latín que significa «todo es
   común» o «todo es de todos».

@@ -5,7 +5,7 @@ categories:
 - development
 tags:
 - jekyll
-menu-name: Welcome to Jekyll!
+menu_name: Welcome to Jekyll!
 image: project-2.jpg
 description: To add new posts, simply add a file in the `_posts` directory. Jekyll
   also offers powerful support for code snippets.

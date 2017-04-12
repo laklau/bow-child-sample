@@ -4,10 +4,10 @@ categories:
 - development
 tags:
 - Responsive
-menu-name: Service 4
+menu_name: Service 4
 icon: help
 image: "/assets/images/work_1.png"
-image-alt: service 4
+image_alt: service 4
 claim: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua.
 abstract: Labore et dolore magna aliqua. Consectetur adipisicing elit, sed do eiusmod

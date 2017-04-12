@@ -4,10 +4,10 @@ categories:
 - development
 tags:
 - Lorem ipsum
-menu-name: Service 1
+menu_name: Service 1
 icon: eye
 image: "/assets/images/work_1.png"
-image-alt: service 1
+image_alt: service 1
 claim: Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias
   autem provident. Odit ab aliquam dolor eius.
 abstract: " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
