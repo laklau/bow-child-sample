@@ -1,81 +1,58 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+---
 title: Bow Child
+timezone: Europe/Madrid
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  services:
+    title: Services
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    author: Author Name
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+- scope:
+    path: ''
+    type: services
+  values:
+    layout: service
 email: yo@domain.com
-description: "Jekyllization of Bow theme from FREEHTML5.co"
-claim: "My very best effort for jekyllize this child theme"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: Jekyllization of Bow theme from FREEHTML5.co
+claim: My very best effort for jekyllize this child theme
+baseurl: ''
+url: ''
 twitter_username: Jane_doe
-github_username:  Jane_doe
-
-# Where things are
+github_username: Jane_doe
 source: src
 destination: _site
 plugins_dir: _plugins
 layouts_dir: _layouts
 data_dir: _data
 includes_dir: _includes
-
-collections:
-  projects:
-    output: true
-  services:
-    output: true
-
-# Handling Reading
-encoding: "utf-8"
-markdown_ext: "md"
+encoding: utf-8
+markdown_ext: md
 exclude:
-  - Gemfile
-  - Gemfile.lock
-
-# Plugins
+- Gemfile
+- Gemfile.lock
 gems:
-  - jekyll-feed
-  - jekyll-paginate
-
-# theme: bow-child
-
-# Conversion
+- jekyll-feed
+- jekyll-paginate
 markdown: kramdown
-
-# Outputting
-timezone: Europe/Madrid
 permalink: pretty
-
-# Pagination
 paginate: 6
-paginate_path: /blog/page:num/
-
-
-
-# Front Matter defaults
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Author Name"
-
-  -
-    scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "project" # overrides previous default layout
-
-  -
-    scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service" # overrides previous default layout
+paginate_path: "/blog/page:num/"

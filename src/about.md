@@ -1,9 +1,8 @@
 ---
-layout: about
 title: Bow-Child | About
+layout: about
 menu-name: About
 ---
-
 
 ### History
 
