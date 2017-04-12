@@ -38,7 +38,7 @@ baseurl: ''
 url: ''
 twitter_username: Jane_doe
 github_username: Jane_doe
-source: src
+source: .
 destination: _site
 plugins_dir: _plugins
 layouts_dir: _layouts
@@ -49,6 +49,10 @@ markdown_ext: md
 exclude:
 - Gemfile
 - Gemfile.lock
+- bow-child.gemspec
+- LICENSE.txt
+- README-theme.md
+- README.md
 gems:
 - jekyll-feed
 - jekyll-paginate
